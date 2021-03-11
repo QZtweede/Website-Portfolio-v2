@@ -115,4 +115,46 @@ nav a{
     left: 8%;
     top: 98px;
     background: #090909;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#LU-link-container a{
+    color: #A7B6D2;
+    font-size: 280px;
+    font-family: Niagara Solid;
+    text-decoration: none;
+}
+
+#Arrow{
+    border-style: solid;
+    border-width: 30px 0 30px 52.0px;
+    border-color: transparent transparent transparent white;
+}
+
+#innerA{
+    position: absolute;
+    border-style: solid;
+    border-width: 25px 0 25px 43.3px;
+    border-color: transparent transparent transparent #090909;
+    padding-left: 2px;
+}
+
+.A-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 220px;
+}
+
+#Arrow-container1{
+    top: 220px;
+    right: 20px;
+}
+
+#Arrow-container2{  
+    left: 20px;
+    transform: scaleX(-1);
 }
