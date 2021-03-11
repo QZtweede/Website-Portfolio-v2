@@ -15,7 +15,10 @@ body, html{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;   
+}
+
+body{
     background: #090909;
 }
 
@@ -32,7 +35,7 @@ nav ul{
 
 nav li{
     list-style: none;
-    margin-left: 12%;
+    margin-left: 13%;
 }
 
 nav a{
@@ -41,4 +44,55 @@ nav a{
     font-family: agency fb;
     font-size: 30px;
     color: #A5B5D3;
+}
+
+#main-container{
+    position: relative;
+    height: 1700px;
+    width: 100%;
+}
+
+#LU-container{
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+#AM-container{
+    position: relative;
+    height: 1500px;
+    width: 100%;
+}
+
+#img1{
+    width: 800px;
+    height: 450px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+#img2{
+    width: 1400px;
+    height: 1500px;
+    float: right;
+    margin-top: 100px;
+    margin-right: -500px;
+}
+
+#main-container h1{
+    position: absolute;
+    color: #A7B6D2;
+    font-size: 120px;
+    font-family: Niagara Solid;
+    right: 200px;
+    top: 10px;
+}
+
+#main-container h2{
+    position: absolute;
+    color: #FA4D4D;
+    font-size: 150px;
+    font-family: "times new roman";
+    left: 55px;
+    top: 370px;
 }
