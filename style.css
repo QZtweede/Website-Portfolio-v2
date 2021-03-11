@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background: #090909;
+}
+
+nav{
+    height: 120px; 
+}
+
+nav ul{
+    height: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 12%;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 50px;
+    font-family: agency fb;
+    font-size: 30px;
+    color: #A5B5D3;
+}
