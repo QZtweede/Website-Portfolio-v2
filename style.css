@@ -56,15 +56,16 @@ nav a{
     position: relative;
     height: 400px;
     width: 100%;
+    z-index: 1;
 }
 
 #AM-container{
     position: relative;
-    height: 1500px;
+    height: 800px;
     width: 100%;
 }
 
-#img1{
+#img1{  
     width: 800px;
     height: 450px;
     margin-left: 50px;
@@ -72,11 +73,19 @@ nav a{
 }
 
 #img2{
+    background-image: url(img/roses.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 1400px;
     width: 1400px;
     height: 1000px;
     float: right;
     margin-top: 100px;
     margin-right: -500px;
+    transition: 0.4s;
+}
+
+#img2:hover{
+    background-image: url(img/roses.gif);
 }
 
 #main-container h1{
@@ -150,7 +159,6 @@ nav a{
 }
 
 #Arrow-container1{
-    top: 220px;
     right: 20px;
 }
 
@@ -158,3 +166,37 @@ nav a{
     left: 20px;
     transform: scaleX(-1);
 }
+
+#img3{
+    background-image: url(img/flower.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 1000px;
+    height: 900px;
+    width: 600px;
+    margin-top: -100px;
+    transition: 0.4s;
+}
+
+#img3:hover{
+    background-image: url(img/flower.gif);
+}
+
+#AM-container h1{
+    position: absolute;
+    color: #FA4D4D;
+    font-size: 250px;
+    font-family: "times new roman"; 
+    left: 515px;
+    bottom: 250px;
+}
+
+#AM-container p{
+    position: absolute;
+    color: #A7B6D2;
+    font-size: 30px;
+    font-family: agency fb; 
+    left: 620px;
+    width: 700px;
+    bottom: 80px;
+}
+
