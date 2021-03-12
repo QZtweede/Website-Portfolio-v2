@@ -135,12 +135,11 @@ nav a{
     font-size: 280px;
     font-family: Niagara Solid;
     text-decoration: none;
-    /* opacity: 0; */
-}
-
+    transition: 0.2s;}
+/* 
 .Opacity-1{
     opacity: 1;
-}
+} */
 
 #Arrow{
     border-style: solid;
