@@ -130,10 +130,16 @@ nav a{
 }
 
 #LU-link-container a{
+    position: absolute;
     color: #A7B6D2;
     font-size: 280px;
     font-family: Niagara Solid;
     text-decoration: none;
+    /* opacity: 0; */
+}
+
+.Opacity-1{
+    opacity: 1;
 }
 
 #Arrow{
@@ -142,7 +148,7 @@ nav a{
     border-color: transparent transparent transparent white;
 }
 
-#innerA{
+.innerA{
     position: absolute;
     border-style: solid;
     border-width: 25px 0 25px 43.3px;
