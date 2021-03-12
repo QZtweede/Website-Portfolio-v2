@@ -5,6 +5,7 @@
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    cursor: none;
 }
 
 ::-webkit-scrollbar{
@@ -208,11 +209,26 @@ nav a{
 }
 
 #Cursor-animation{
-    height: 10px;
-    width: 10px;
-    background: white;
+    height: 20px;
+    width: 20px;
+    background-image: url(img/cursor.png);
+    background-size: 20px 20px;
     position: absolute;
     z-index: 2;
     pointer-events: none;
-    transform: translate(-50%, -50%);
+}
+
+#Cursor-animation2{
+    height: 20px;
+    width: 20px;
+    background-image: url(img/cursor.png);
+    background-size: 20px 20px;
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.animate{
+    transition: transform 1s;
+    transform: scale(1.5);
 }
