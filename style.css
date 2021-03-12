@@ -207,3 +207,12 @@ nav a{
     bottom: 80px;
 }
 
+#Cursor-animation{
+    height: 10px;
+    width: 10px;
+    background: white;
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
