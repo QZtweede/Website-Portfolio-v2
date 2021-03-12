@@ -209,26 +209,31 @@ nav a{
 }
 
 #Cursor-animation{
-    height: 20px;
-    width: 20px;
-    background-image: url(img/cursor.png);
-    background-size: 20px 20px;
+    height: 16px;
+    width: 16px;
+    border: 3px solid #8d94a0;
+    border-radius: 50%;
     position: absolute;
     z-index: 2;
     pointer-events: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Cursor-animation2{
-    height: 20px;
-    width: 20px;
-    background-image: url(img/cursor.png);
-    background-size: 20px 20px;
+    height: 19px;
+    width: 19px;
+    border: 1px solid #8d94a0;
+    border-radius: 50%;
     position: absolute;
     z-index: 2;
     pointer-events: none;
 }
 
 .animate{
-    transition: transform 1s;
-    transform: scale(1.5);
+    transition: transform 0.3s, opacity 0.3s;
+    transform: scale(2);
+    opacity: 0;
 }
