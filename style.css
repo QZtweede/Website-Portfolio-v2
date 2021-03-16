@@ -19,12 +19,14 @@ body, html{
     scroll-behavior: smooth;   
 }
 
+
 body{
     background: #090909;
 }
 
 nav{
-    height: 120px; 
+    height: 120px;
+    z-index: 0; 
 }
 
 nav ul{
@@ -53,6 +55,12 @@ nav a{
     width: 100%;
 }
 
+@keyframes fadein{
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+
+
 #LU-container{
     position: relative;
     height: 400px;
@@ -71,6 +79,7 @@ nav a{
     height: 450px;
     margin-left: 50px;
     position: absolute;
+    animation: fadein 1s;
 }
 
 #img2{
@@ -83,6 +92,7 @@ nav a{
     margin-top: 100px;
     margin-right: -500px;
     transition: 0.4s;
+    animation: fadein 2s;
 }
 
 #img2:hover{
@@ -215,7 +225,7 @@ nav a{
 #Cursor-animation{
     height: 16px;
     width: 16px;
-    border: 3px solid #ffc421;
+    border: 3px solid #00ff0d;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
@@ -225,13 +235,13 @@ nav a{
 #Cursor-animation2{
     height: 19px;
     width: 19px;
-    border: 1px solid #ffc421;   
+    border: 1px solid #00ff0d;   
 }
 
 #Cursor-animation3{
     height: 18px;
     width: 18px;
-    border: 2px solid #ffc421;  
+    border: 2px solid #00ff0d;  
 }
 
 .Cursor{
@@ -270,6 +280,7 @@ nav a{
 }
 
 #Top-container{
+    position: relative;
     height: calc(100vh - 120px);
     width: 100vw;
     display: flex;
@@ -293,16 +304,34 @@ nav a{
 
 #Moon{
     height: 500px;
-    width: 1200px;
+    width: 1150px;
     background-image: url(img/moon.png);
     background-repeat: no-repeat;
     background-size: 1200px 600px;
+    z-index: 2;
+    transition: 0.4s;
+}
+
+#Moon:hover{
+    background-image: url(img/moon\ \(2\).gif);
 }
 
 #Top-container h1{
     position: absolute;
     color: #FA4D4D;
-    font-size: 150px;
+    font-size: 190px;
     font-family: "times new roman";
-    top: 370px;
+    top: 380px;
+    z-index: 3;
+}
+
+#Top-container a{
+    position: absolute;
+    color: #A7B6D2;
+    font-size: 120px;
+    font-family: Niagara Solid;
+    right: 100px;
+    top: -90px;
+    text-decoration: none;
+    z-index: 1;
 }
