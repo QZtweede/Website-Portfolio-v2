@@ -96,6 +96,7 @@ nav a{
     font-family: Niagara Solid;
     right: 200px;
     top: 10px;
+    pointer-events: none;
 }
 
 #main-container h2{
@@ -106,6 +107,7 @@ nav a{
     left: 55px;
     top: 370px;
     text-shadow: 0px 45px 0px rgb(250, 77, 77, 0.5), 0px 90px 0px rgb(250, 77, 77, 0.1);
+    pointer-events: none;
 }
 
 #LU-container h1{
@@ -114,6 +116,7 @@ nav a{
     font-size: 110px;
     font-family: "times new roman"; 
     left: 140px;
+    pointer-events: none;
 }
 
 #LU-link-container{
@@ -196,6 +199,7 @@ nav a{
     font-family: "times new roman"; 
     left: 515px;
     bottom: 250px;
+    pointer-events: none;
 }
 
 #AM-container p{
@@ -211,12 +215,8 @@ nav a{
 #Cursor-animation{
     height: 16px;
     width: 16px;
-    border: 3px solid #8d94a0;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    pointer-events: none;
-
+    border: 3px solid #ffc421;
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,7 +225,16 @@ nav a{
 #Cursor-animation2{
     height: 19px;
     width: 19px;
-    border: 1px solid #8d94a0;
+    border: 1px solid #ffc421;   
+}
+
+#Cursor-animation3{
+    height: 18px;
+    width: 18px;
+    border: 2px solid #ffc421;  
+}
+
+.Cursor{
     border-radius: 50%;
     position: absolute;
     z-index: 2;
@@ -236,4 +245,26 @@ nav a{
     transition: transform 0.3s, opacity 0.3s;
     transform: scale(2);
     opacity: 0;
+}
+
+.animate2{
+    transition: transform 0.3s, opacity 0.3s;
+    transform: scale(1.7);
+    opacity: 0;
+}
+
+#nav-LU{
+    position: absolute;
+    left: 50%;
+    bottom: 140px;
+    height: 10px;
+    width: 10px;
+}
+
+#nav-AM{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    height: 10px;
+    width: 10px;
 }
