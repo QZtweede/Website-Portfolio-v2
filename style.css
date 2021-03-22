@@ -319,6 +319,7 @@ nav a{
     font-family: "times new roman";
     top: 380px;
     z-index: 3;
+    pointer-events: none;
 }
 
 #Top-container a{
@@ -362,4 +363,38 @@ nav a{
     33.33%{color: rgba(100, 255, 100);}
     66.66%{color: rgba(100, 100, 255);}
     100%{color: rgba(255, 100, 100);}
+}
+
+#Project-top-container {
+    height: 100vh;
+    position: relative;
+}
+
+#Project-top-container h1{
+    position: absolute;
+    color: #FA4D4D;
+    font-size: 190px;
+    font-family: "times new roman";
+    left: 150px;
+}
+
+#Project-top-container h2{
+    position: absolute;
+    color: white;
+    font-size: 150px;
+    font-family: "times new roman";
+    top: -150px;
+    width: 20px;
+    right: 230px;
+}
+
+#Project-top-container p{
+    position: absolute;
+    color: #A7B6D2;
+    font-size: 30px;
+    font-family: agency fb; 
+    top: 230px;
+    width: 900px;
+    left: 250px;
+    text-align: right;
 }
