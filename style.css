@@ -106,7 +106,7 @@ nav a{
     font-family: Niagara Solid;
     right: 200px;
     top: 10px;
-    pointer-events: none;
+    text-align: center;
 }
 
 #main-container h2{
@@ -288,18 +288,14 @@ nav a{
 }
 
 .Content{
+    margin-top: 100px;
     height: calc(200vh / 4);
     width: 100vw; 
-}
-
-.Content-left{
     display: flex;
-    justify-content: flex-start;
-}
-
-.Content-right{
-    display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background:rgba(34, 34, 36, 0.5);
+    text-decoration: none;
 }
 
 #Moon{
@@ -334,4 +330,36 @@ nav a{
     top: -90px;
     text-decoration: none;
     z-index: 1;
+}
+
+.Content h1{
+    font-family: Niagara Solid;
+    font-size: 250px;
+    color: #A7B6D2;
+    text-decoration: none;
+}
+
+.Content p{
+    width: 500px;
+    color: #A7B6D2;
+    font-size: 20px;
+    font-family: agency fb; 
+}   
+
+#Hover-text{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.5s;
+    width: 400px;
+    font-family: Niagara Solid;
+    font-size: 30px;
+    animation: fontColor 5s infinite;
+}
+
+@keyframes fontColor{ 
+    0%{color: rgb(255, 100, 100);}
+    33.33%{color: rgba(100, 255, 100);}
+    66.66%{color: rgba(100, 100, 255);}
+    100%{color: rgba(255, 100, 100);}
 }
