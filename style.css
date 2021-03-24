@@ -149,7 +149,8 @@ nav a{
     font-size: 280px;
     font-family: Niagara Solid;
     text-decoration: none;
-    transition: 1s;}
+    transition: 0.3s;
+}
 /* 
 .Opacity-1{
     opacity: 1;
@@ -366,7 +367,7 @@ nav a{
 }
 
 #Project-top-container {
-    height: 100vh;
+    height: 76vh;
     position: relative;
 }
 
@@ -397,4 +398,80 @@ nav a{
     width: 900px;
     left: 250px;
     text-align: right;
+}
+
+#Project-content-container{
+    position: relative;
+    height: 160vh;
+    width: 100%;
+}
+
+#Project-img-container img{
+    height: 300px;
+    width: 700px;
+    background: white;
+
+    margin-top: 65px;
+}
+
+#Project-img-container{
+    width: 50vw;
+    height: 100vh;
+}
+
+#Project-p-container{
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #A7B6D2;
+    font-size: 25px;
+    font-family: agency fb;
+    
+}
+
+#Project-p-container p1{
+    position: absolute;
+    margin-right: 50px;
+    top: 120px;
+}
+
+#Project-p-container p2{
+    position: absolute;
+    margin-right: 50px;
+    top: 500px;
+}
+
+#Content-footer{
+    width: 100vw;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+#Content-footer :is(h1, h2){
+    color:#FA4D4D;
+    font-size: 60px;
+}
+
+#Content-footer h2{
+    margin-right: 60px;
+}
+
+#Content-footer h1{
+    margin-right: 60px;
+}
+
+#Content-footer-p{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Content-footer-p p{
+    color: #A7B6D2;
+    font-size: 25px;
+    font-family: agency fb;
+    width: 500px;
+    text-align: center;
 }
