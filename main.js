@@ -13,12 +13,19 @@ let LU6 = document.getElementById("LU6")
 var counter = 0
 
 
-LU1.style.display = "block"
-LU2.style.display="none"
-LU3.style.display="none"
-LU4.style.display="none"
-LU5.style.display="none"
-LU6.style.display="none"
+LU1.style.opacity = 1
+LU2.style.opacity = 0
+LU3.style.opacity = 0
+LU4.style.opacity = 0
+LU5.style.opacity = 0
+LU6.style.opacity = 0
+
+LU1.style.pointerEvents = "all"
+LU2.style.pointerEvents = "none"
+LU3.style.pointerEvents = "none"
+LU4.style.pointerEvents = "none"
+LU5.style.pointerEvents = "none"
+LU6.style.pointerEvents = "none"
 
 function B1Clicked(){
     counter++
@@ -40,47 +47,60 @@ function Opacity(){
     Reset()
     
     function Reset(){
-        LU1.style.display="none"
-        LU2.style.display="none"
-        LU3.style.display="none"
-        LU4.style.display="none"
-        LU5.style.display="none"
-        LU6.style.display="none"
+    LU1.style.opacity = 0
+    LU2.style.opacity = 0
+    LU3.style.opacity = 0
+    LU4.style.opacity = 0
+    LU5.style.opacity = 0
+    LU6.style.opacity = 0
+
+    LU1.style.pointerEvents = "none"
+    LU2.style.pointerEvents = "none"
+    LU3.style.pointerEvents = "none"
+    LU4.style.pointerEvents = "none"
+    LU5.style.pointerEvents = "none"
+    LU6.style.pointerEvents = "none"
     }
 
     if(counter == 0){
         Reset()
-        LU1.style.display = "block"
+        LU1.style.opacity = 1
+        LU1.style.pointerEvents = "all"
         console.log(counter)
     }
 
     if(counter == 1){
         Reset()
-        LU2.style.display = "block"
+        LU2.style.opacity = 1
+        LU2.style.pointerEvents = "all"
         console.log(counter)
     }
 
     if(counter == 2){
         Reset()
-        LU3.style.display = "block"
+        LU3.style.opacity = 1
+        LU3.style.pointerEvents = "all"
         console.log(counter)
     }
 
     if(counter == 3){
         Reset()
-        LU4.style.display = "block"
+        LU4.style.opacity = 1
+        LU4.style.pointerEvents = "all"
         console.log(counter)
     }
 
     if(counter == 4){
         Reset()
-        LU5.style.display = "block"
+        LU5.style.opacity = 1
+        LU5.style.pointerEvents = "all"
         console.log(counter)
     }
 
     if(counter == 5){
         Reset()
-        LU6.style.display = "block"
+        LU6.style.opacity = 1
+        LU6.style.pointerEvents = "all"
         console.log(counter)
     }
 }
