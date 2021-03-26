@@ -1,3 +1,7 @@
 Feedback Website:
 
 -"Portfolio" op main page moet image overlappen
+
+-Design lijkt niet genoeg op een portfolio, meer op een museum website
+-Hover effecten voor links toevoegen
+-Afbeeldingen lijken zelf gedesigned hoe ze geplaatst worden
