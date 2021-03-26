@@ -26,6 +26,7 @@ body{
 
 nav{
     height: 120px;
+    width: 50vw;
     z-index: 0; 
 }
 
@@ -47,12 +48,19 @@ nav a{
     font-family: agency fb;
     font-size: 30px;
     color: #A5B5D3;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #e9ffff;
 }
 
 #main-container{
     position: relative;
-    height: 900px;
+    height: 700px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 @keyframes fadein{
@@ -83,14 +91,16 @@ nav a{
 }
 
 #img2{
+    position: absolute;
     background-image: url(img/roses.jpg);
     background-repeat: no-repeat;
     background-size: 1000px 1400px;
-    width: 1400px;
+    width: 50vw;
     height: 1000px;
+    right: 0;
     float: right;
-    margin-top: 100px;
-    margin-right: -500px;
+    margin-top: -150px;
+    /* margin-right: -500px; */
     transition: 0.4s;
     animation: fadein 2s;
 }
@@ -109,15 +119,55 @@ nav a{
     text-align: center;
 }
 
+#H-container{
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 270px;
+    background: #090909;
+    display: flex;
+    justify-content: center;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+}
+
 #main-container h2{
     position: absolute;
     color: #FA4D4D;
-    font-size: 150px;
+    font-size: 220px;
     font-family: "times new roman";
-    left: 55px;
-    top: 370px;
-    text-shadow: 0px 45px 0px rgb(250, 77, 77, 0.5), 0px 90px 0px rgb(250, 77, 77, 0.1);
+    /* text-shadow: 0px 45px 0px rgb(250, 77, 77, 0.5), 0px 90px 0px rgb(250, 77, 77, 0.1); */
     pointer-events: none;
+    top: -20px;
+}
+
+#H-container p{
+    position: absolute;
+    font-size: 60px;
+    font-family: agency fb;
+    color: #383838;
+    bottom: 0;
+}
+
+#Main-p-container{
+    position: absolute;
+    height: 300px;
+    width: 700px;
+    background: #0F0F0F;
+    bottom: 90px;
+    left: 0;
+    border-radius: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+#Main-p-container p{
+    color: #A7B6D2;
+    font-size: 25px;
+    font-family: agency fb; 
+    line-height: 40px;
+    width: 650px;
+    margin-left: 10px;
 }
 
 #LU-container h1{
@@ -151,6 +201,11 @@ nav a{
     text-decoration: none;
     transition: 0.3s;
 }
+
+#LU-link-container a:hover{
+    color: #e9ffff;
+    transform: scale(1.01,1.01);
+}
 /* 
 .Opacity-1{
     opacity: 1;
@@ -168,6 +223,11 @@ nav a{
     border-width: 25px 0 25px 43.3px;
     border-color: transparent transparent transparent #090909;
     padding-left: 2px;
+    transition: 0.3s;
+}
+
+.innerA:hover{
+    border-color: transparent transparent transparent white; 
 }
 
 .Arrow-container1{
@@ -297,6 +357,11 @@ nav a{
     flex-direction: column;
     background:rgba(34, 34, 36, 0.5);
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.Content:hover{
+    background: rgba(34, 34, 36, 0.8);
 }
 
 #Moon{
