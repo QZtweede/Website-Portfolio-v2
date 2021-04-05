@@ -1,0 +1,48 @@
+#intro{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: #FA4D4D;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: swipe-up 2s;
+    animation-fill-mode: forwards;
+}
+
+#intro img{
+    height: 500px;
+    width: 800px;
+    animation: logo-fadein 1s;
+}
+
+@keyframes logo-fadein{
+    from{
+        opacity: 0;
+        transform: rotate(45deg);        
+    }
+    to{
+        opacity: 1;
+        transform: rotate(0deg);   
+    }
+}
+
+@keyframes swipe-up{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 0
+    }
+    99%{
+        top: -100vh;
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
