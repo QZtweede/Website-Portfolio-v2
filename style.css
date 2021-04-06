@@ -28,6 +28,8 @@ nav{
     height: 120px;
     width: 50vw;
     z-index: 0; 
+    position: relative;
+    z-index: 2;
 }
 
 nav ul{
@@ -53,6 +55,14 @@ nav a{
 
 nav a:hover{
     color: #e9ffff;
+}
+
+nav img{
+    height: 90px;
+    width: 140px;
+    position: absolute;
+    right: -780px;
+    top: 15px;
 }
 
 #main-container{
