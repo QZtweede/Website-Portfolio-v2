@@ -47,7 +47,7 @@ nav li{
 nav a{
     text-decoration: none;
     margin: 50px;
-    font-family: agency fb;
+    font-family: "SimSun-ExtB";
     font-size: 30px;
     color: #A5B5D3;
     transition: 0.3s;
@@ -154,7 +154,7 @@ nav img{
 #H-container p{
     position: absolute;
     font-size: 60px;
-    font-family: agency fb;
+    font-family: Niagara Solid;
     color: #383838;
     bottom: 0;
 }
@@ -174,7 +174,7 @@ nav img{
 #Main-p-container p{
     color: #A7B6D2;
     font-size: 25px;
-    font-family: agency fb; 
+    font-family: "SimSun-ExtB"; 
     line-height: 40px;
     width: 650px;
     margin-left: 10px;
@@ -286,8 +286,9 @@ nav img{
 #AM-container p{
     position: absolute;
     color: #A7B6D2;
-    font-size: 30px;
-    font-family: agency fb; 
+    font-size: 25px;
+    font-family: "SimSun-ExtB"; 
+    line-height: 40px;
     left: 620px;
     width: 700px;
     bottom: 80px;
@@ -420,7 +421,7 @@ nav img{
     width: 500px;
     color: #A7B6D2;
     font-size: 20px;
-    font-family: agency fb; 
+    font-family: "SimSun-ExtB"; 
 }   
 
 #Hover-text{
@@ -468,7 +469,7 @@ nav img{
     position: absolute;
     color: #A7B6D2;
     font-size: 30px;
-    font-family: agency fb; 
+    font-family: "SimSun-ExtB"; 
     top: 230px;
     width: 900px;
     left: 250px;
@@ -502,7 +503,7 @@ nav img{
     right: 0;
     color: #A7B6D2;
     font-size: 25px;
-    font-family: agency fb;
+    font-family: "SimSun-ExtB";
     
 }
 
@@ -546,7 +547,7 @@ nav img{
 #Content-footer-p p{
     color: #A7B6D2;
     font-size: 25px;
-    font-family: agency fb;
+    font-family: "SimSun-ExtB";
     width: 500px;
     text-align: center;
 }
