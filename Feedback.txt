@@ -5,3 +5,7 @@ Feedback Website:
 -Design lijkt niet genoeg op een portfolio, meer op een museum website
 -Hover effecten voor links toevoegen
 -Afbeeldingen lijken zelf gedesigned hoe ze geplaatst worden
+
+-Navigatie is onduidelijk
+-Misschien gebeurt er te veel in de website
+-Lettertype van p past niet bij stijl
