@@ -63,6 +63,7 @@ nav img{
     position: absolute;
     right: -780px;
     top: 15px;
+    background-image: url("img/Logov2.png"); 
 }
 
 #main-container{
@@ -216,7 +217,7 @@ nav img{
     color: #e9ffff;
     transform: scale(1.01,1.01);
 }
-/* 
+/* /* 
 .Opacity-1{
     opacity: 1;
 } */
@@ -257,6 +258,24 @@ nav img{
     top: 220px;
     left: 20px;
     transform: scaleX(-1);
+}
+
+#Dots-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    bottom: -60px;
+    right: 300px;
+}
+
+.Dot{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #696969;
 }
 
 #img3{
