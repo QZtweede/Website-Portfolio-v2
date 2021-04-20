@@ -354,6 +354,10 @@ nav img{
     opacity: 0;
 }
 
+.animate3{
+    background: #00ff0d;
+}
+
 #nav-LU{
     position: absolute;
     left: 50%;
@@ -566,7 +570,6 @@ nav img{
 
 #Project-content-container{
     position: relative;
-    height: 160vh;
     width: 100%;
 }
 
@@ -592,19 +595,36 @@ nav img{
     color: #A7B6D2;
     font-size: 25px;
     font-family: "SimSun-ExtB";
-    
+}
+
+#Project-p-container1{
+    background: #0F0F0F;
+    border-radius: 20px 0 0 20px;
+    height: 300px;
+    position: absolute;
+    top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Project-p-container2{
+    background: #0F0F0F;
+    border-radius: 20px 0 0 20px;
+    height: 300px;
+    position: absolute;
+    top: 435px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Project-p-container p1{
-    position: absolute;
-    margin-right: 50px;
-    top: 120px;
+    margin-left: 20px;
 }
 
 #Project-p-container p2{
-    position: absolute;
-    margin-right: 50px;
-    top: 500px;
+    margin-left: 20px;
 }
 
 #Content-footer{
@@ -638,4 +658,24 @@ nav img{
     font-family: "SimSun-ExtB";
     width: 500px;
     text-align: center;
+}
+
+#Project-footer-container1{
+    background: #0F0F0F;
+    border-radius:20px 20px 0 0 ;
+    height: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Project-footer-container2{
+    background: #0F0F0F;
+    border-radius:20px 20px 0 0 ;
+    width: 600px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
