@@ -36,17 +36,17 @@ function opacityOut(){
     hover.style.opacity=0
 }
 
-async function japaneseIn(){
-    portfolioTxt.innerHTML="ポートフォリオ"
-    portfolioTxt.style.fontSize="70px"
-    portfolioTxt.style.right="80px"
-    portfolioTxt.style.top="30px"
-}
+// async function japaneseIn(){
+//     portfolioTxt.innerHTML="ポートフォリオ"
+//     portfolioTxt.style.fontSize="70px"
+//     portfolioTxt.style.right="80px"
+//     portfolioTxt.style.top="30px"
+// }
 
-async function japaneseOut(){
-    await sleep(200)
-    portfolioTxt.innerHTML="Portfolio"
-    portfolioTxt.style.fontSize="120px"
-    portfolioTxt.style.right="200px"
-    portfolioTxt.style.top="10px"
-}
+// async function japaneseOut(){
+//     await sleep(200)
+//     portfolioTxt.innerHTML="Portfolio"
+//     portfolioTxt.style.fontSize="120px"
+//     portfolioTxt.style.right="200px"
+//     portfolioTxt.style.top="10px"
+// }
