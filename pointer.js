@@ -15,9 +15,11 @@ document.addEventListener("mousemove", function(i){
 
 async function onClick(){
     ani.classList.toggle("animate")
+    curs.classList.toggle("animate3")
     await sleep(100)
     ani2.classList.toggle("animate2")
     await sleep(300)
+    curs.classList.toggle("animate3")
     ani.classList.toggle("animate")
     ani2.classList.toggle("animate2")
 }
