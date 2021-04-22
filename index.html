@@ -7,7 +7,7 @@
     <title>ZR</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="intro.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body onclick="onClick()">  
     <div id="intro">
@@ -17,7 +17,8 @@
         <ul>
             <li><a href="#nav-LU">Leeruitkomsten</a></li>
             <li><a href="#nav-AM">About me</a></li>
-            <img src="img/Logov2.png" alt="">
+            <img src="img/Logov2.png" alt="" data-aos="fade-down-left"
+            data-aos-offset="0" data-aos-delay="2000"> 
         </ul>
     </nav>
     <div id="main-container">
@@ -36,7 +37,8 @@
         <div id="nav-LU"></div>
     </div>    
     <div id="LU-container">
-        <h1>Leeruitkomsten</h1>
+        <h1 data-aos="fade-right"
+        data-aos-offset="0">Leeruitkomsten</h1>
         <div id="LU-link-container">
             <a id="LU1" href="interactieve-media.html" style="font-size: 250px;">Interactieve media</a>
             <a id="LU2" href="">Development</a>
@@ -65,7 +67,8 @@
     </div>  
     <div id="AM-container">
         <div id="img3"></div>  
-        <h1>About me</h1>
+        <h1 data-aos="fade-left"
+        data-aos-offset="0">About me</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, officia iure aut distinctio natus harum neque hic, tempore mollitia quisquam voluptatibus inventore laudantium dicta dolore totam est illum repellendus ex!</p>
         <div id="nav-AM"></div>
     </div>   
@@ -73,9 +76,14 @@
         <div class="Cursor" id="Cursor-animation2"></div>
         <div class="Cursor" id="Cursor-animation3"></div>
     </div>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script>
-    AOS.init();
+    $(function() {
+        AOS.init({
+        });
+        // window.addEventListener('load', AOS.refresh)
+    });
      </script>
 </body>
 </html>
