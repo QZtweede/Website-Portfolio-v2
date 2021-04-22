@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZR</title>
     <link href="style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body onclick="onClick()">
     <nav>
@@ -41,8 +42,8 @@
             </div>
         </div>
         <div id="Content-footer">
-            <h1>Wat heb ik geleerd?</h1>
-            <h2>Wat kon beter?</h2>
+            <h1 data-aos="fade-right">Wat heb ik geleerd?</h1>
+            <h2 data-aos="fade-left">Wat kon beter?</h2>
         </div>
         <div id="Content-footer-p">
             <div id="Project-footer-container1">
@@ -57,6 +58,15 @@
         <div class="Cursor" id="Cursor-animation2"></div>
         <div class="Cursor" id="Cursor-animation3"></div>
     </div>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+    $(function() {
+        AOS.init({
+        });
+        // window.addEventListener('load', AOS.refresh)
+    });
+     </script>
 </body>
 </html>
 
