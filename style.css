@@ -158,6 +158,14 @@ nav img{
     bottom: 0;
 }
 
+#header-img{
+    height: 300px;
+    width: 1400px;
+    background-image: url(img/Header.png);
+    background-size: cover;
+    background-position: center;
+}
+
 #Main-p-container{
     position: absolute;
     height: 300px;
