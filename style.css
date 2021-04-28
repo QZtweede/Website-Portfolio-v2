@@ -45,7 +45,7 @@ nav li{
 nav a{
     text-decoration: none;
     margin: 50px;
-    font-family: "SimSun-ExtB";
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 30px;
     color: #A5B5D3;
     transition: 0.3s;
@@ -145,7 +145,8 @@ nav img{
     color: #FA4D4D;
     font-size: 220px;
     font-family: "times new roman";
-    /* text-shadow: 0px 45px 0px rgb(250, 77, 77, 0.5), 0px 90px 0px rgb(250, 77, 77, 0.1); */
+    font-weight: bold;
+    text-shadow: 5px 2px 0px #A7B6D2;
     pointer-events: none;
     top: -20px;
 }
@@ -156,14 +157,6 @@ nav img{
     font-family: Niagara Solid;
     color: #383838;
     bottom: 0;
-}
-
-#header-img{
-    height: 300px;
-    width: 1400px;
-    background-image: url(img/Header.png);
-    background-size: cover;
-    background-position: center;
 }
 
 #Main-p-container{
@@ -181,7 +174,7 @@ nav img{
 #Main-p-container p{
     color: #A7B6D2;
     font-size: 25px;
-    font-family: "SimSun-ExtB"; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     line-height: 40px;
     width: 650px;
     margin-left: 10px;
@@ -312,7 +305,7 @@ nav img{
     position: absolute;
     color: #A7B6D2;
     font-size: 25px;
-    font-family: "SimSun-ExtB"; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     line-height: 40px;
     left: 620px;
     width: 700px;
@@ -448,7 +441,7 @@ nav img{
 #LU-p-container p{
     color: #A7B6D2;
     font-size: 25px;
-    font-family: "SimSun-ExtB"; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     line-height: 40px;
     width: 650px;
     margin-left: 10px;
@@ -457,9 +450,10 @@ nav img{
 #Top-container h1{
     position: absolute;
     color: #FA4D4D;
-    font-size: 190px;
+    font-size: 180px;
     font-family: "times new roman";
-    /* text-shadow: 0px 45px 0px rgb(250, 77, 77, 0.5), 0px 90px 0px rgb(250, 77, 77, 0.1); */
+    font-weight: bold;
+    text-shadow: 5px 2px 0px #A7B6D2;
     pointer-events: none;
     top: 25px;
 }
