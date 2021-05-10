@@ -523,6 +523,7 @@ nav img{
     background: #090909;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-top: 20px solid black;
     border-bottom: 20px solid black;
 }
@@ -536,7 +537,9 @@ nav img{
     left: 0;
     border-radius: 0 0 20px 0;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #Content-p-container p{
@@ -570,6 +573,8 @@ nav img{
 #Content-H-container h1{
     position: absolute;
     color: #FA4D4D;
+    font-weight: bold;
+    text-shadow: 5px 2px 0px #A7B6D2;
     font-size: 220px;
     font-family: "times new roman";
     /* text-shadow: 0px 45px 0px rgb(250, 77, 77, 0.5), 0px 90px 0px rgb(250, 77, 77, 0.1); */
@@ -586,7 +591,19 @@ nav img{
     height: 300px;
     width: 700px;
     background: white;
-    margin-top: 65px;
+    margin-top: 67px;
+    border-radius: 0 20px 20px 0;
+    z-index: 1;
+    position: relative;
+    transition: 0.5s;
+}
+
+#Project-img-container img:active{
+    height: 600px;
+    width: 1400px;
+    z-index: 5;
+    position: absolute;
+    left: 0;  
 }
 
 #Project-img-container{
@@ -605,26 +622,56 @@ nav img{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+#Project-p-container h1{
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+
 #Project-p-container1{
     background: #0F0F0F;
     border-radius: 20px 0 0 20px;
     height: 300px;
-    position: absolute;
-    top: 65px;
+    margin-top: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    flex-direction: column;
+}
+
+#Content-p-container a{
+    color: white;
+    transition: 0.3s;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    margin: 5px;
+}
+
+#Content-p-container a:hover{
+    color: #A7B6D2;
+    transform: scale(1.1, 1.1);
 }
 
 #Project-p-container2{
     background: #0F0F0F;
     border-radius: 20px 0 0 20px;
     height: 300px;
-    position: absolute;
-    top: 435px;
+    margin-top: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    flex-direction: column;
+}
+
+#Project-p-container3{
+    background: #0F0F0F;
+    border-radius: 20px 0 0 20px;
+    height: 300px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
 
 #Project-p-container p1{
