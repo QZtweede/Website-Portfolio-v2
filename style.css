@@ -19,7 +19,7 @@ body, html{
 }
 
 body{
-    background: #090909; 
+    background: #090909;
 }
 
 nav{
@@ -146,9 +146,15 @@ nav img{
     font-size: 220px;
     font-family: "times new roman";
     font-weight: bold;
-    text-shadow: 5px 2px 0px #A7B6D2;
     pointer-events: none;
     top: -20px;
+    animation: textShadow 4s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes textShadow{
+    50%{text-shadow: -50px 2px 0px #090909;}
+    100%{text-shadow: 5px 2px 0px #A7B6D2;}
 }
 
 #H-container p{
@@ -400,7 +406,8 @@ nav img{
 #Moon{
     height: 100vh;
     width: 50vw;
-    background-image: url(img/moon.png);
+    background-image: linear-gradient(to bottom, transparent, #090909),
+    url("img/moon.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -411,7 +418,8 @@ nav img{
 }
 
 #Moon:hover{
-    background-image: url(img/moon\ \(2\).gif);
+    background-image: linear-gradient(to bottom, transparent, #090909),
+    url("img/moon\ \(2\).gif");
 }
 
 #LU-H-container{
@@ -422,6 +430,7 @@ nav img{
     background: #090909;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-top: 20px solid black;
     border-bottom: 20px solid black;
 }
@@ -448,7 +457,6 @@ nav img{
 }
 
 #Top-container h1{
-    position: absolute;
     color: #FA4D4D;
     font-size: 180px;
     font-family: "times new roman";
@@ -480,7 +488,7 @@ nav img{
     width: 500px;
     color: #A7B6D2;
     font-size: 20px;
-    font-family: "SimSun-ExtB"; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }   
 
 #Hover-text{
@@ -533,7 +541,7 @@ nav img{
 #Content-p-container p{
     color: #A7B6D2;
     font-size: 25px;
-    font-family: "SimSun-ExtB"; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     line-height: 40px;
     width: 650px;
     margin-left: 10px;
@@ -577,7 +585,6 @@ nav img{
     height: 300px;
     width: 700px;
     background: white;
-
     margin-top: 65px;
 }
 
@@ -594,7 +601,7 @@ nav img{
     right: 0;
     color: #A7B6D2;
     font-size: 25px;
-    font-family: "SimSun-ExtB";
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 #Project-p-container1{
@@ -655,7 +662,7 @@ nav img{
 #Content-footer-p p{
     color: #A7B6D2;
     font-size: 25px;
-    font-family: "SimSun-ExtB";
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     width: 500px;
     text-align: center;
 }
