@@ -9,3 +9,10 @@ Feedback Website:
 -Navigatie is onduidelijk
 -Misschien gebeurt er te veel in de website
 -Lettertype van p past niet bij stijl
+
+-Headers lopen soms door elkaar
+-Bron vermelding
+-Feedback vermelding
+-Fonts online linken
+-Verder is het speelse en niet cliche design wel goed uitgewerkt en ziet er goed uit
+-Responsive maken
