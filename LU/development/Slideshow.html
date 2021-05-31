@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow / Zjuul Rovers</title>
+    <link href="/style.css" rel="stylesheet">
+    <link rel="icon" href="/img/icon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body onclick="onClick()">
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="development.html">Back</a></li>
+        </ul>
+    </nav>
+    <div id="Project-top-container">
+        <div id="Content-H-container">
+            <h1 style="font-size: 160px;">Slideshow</h1>
+        </div>   
+        <div id="Content-p-container">
+            <p>
+                In dit project heb ik met gebruik van HTML, CSS en Javascript een slideshow gemaakt. Hierin heb ik vier foto's laten afwisselen. In dit project het ik met redelijk weinig ervaring veel geleerd.
+            </p>
+            <a href="Slideshow/index.html" target="_blank">Klik hier om het project te zien</a>
+            <a style="top: 70px;" href="https://github.com/QZtweede/Slideshow" target="_blank">Github</a>
+        </div>
+        <div id="Genre-container">
+            <h2>Development</h2>
+        </div>
+    </div>
+    <div id="Project-content-container">
+        <div id="Project-img-container">
+            <img id="pimg1" src="/img/Slideshow-img1.png" alt="" id="Project-image-container1">
+            <img id="pimg2" src="/img/Slideshow-img2.png" alt="" id="Project-image-container2">
+            <img id="pimg3" src="/img/Slideshow-img3.png" alt="" id="Project-image-container2">
+        </div>
+        <div id="Project-p-container">
+            <div id="Project-p-container1">
+                <h1>
+                    HTML
+                </h1>
+                <p1>
+                    Het HTML deel in dit project is kort en simpel. Ik heb een container gemaakt voor de foto's, waarin ik vier foto's in gezet heb. Verder heb ik mijn stylesheet en javascript file gelinkt.
+                </p1>
+            </div>
+            <div id="Project-p-container2">
+                <h1>
+                    CSS
+                </h1>
+                <p1>
+                    In CSS heb ik de stijl toegevoegd. Ik heb de foto's position: absolute gegeven, zodat deze over elkaar heen staan. Verder heb ik de container net zo groot gemaakt als het scherm, en heb ik de afbeeldingen in het midden gezet. Onderaan heb ik classes toegevoegd voor de foto's. Dezen worden aangeroepen vanuit Javascript. Hier zit een transition van 2s op. Zo heb ik de foto's in elkaar over laten lopen.
+                </p1>            
+            </div>
+            <div id="Project-p-container3">
+                <h1>
+                    JS
+                </h1>
+                <p1>
+                    In de Javascript code heb ik gebruik gemaakt van vier loop functies, een per foto in de slideshow. In het begin roep ik een keer de eerste functie aan. In de functies geef ik de foto een class. Deze class zorgt ervoor dat de foto zichtbaar word. Ik verander de opacity via CSS, zodat ik makkelijk een transition kan toevoegen. Nadat de class word gelinkt word er 2000ms gewacht. Daarna word de class weer van de foto afgehaald. Ondertussen word de tweede foto zichtbaar enzovoort. 
+                </p1>            
+            </div>
+        </div>
+        <div id="Content-footer">
+            <div class="footerContainer">
+                <p>Wat heb ik geleerd</p>
+                <div>
+                    <p>
+                        Ik heb meer geleerd over Javascript. Zo heb ik gebruik gemaakt van classlist.toggle, en heb ik gebruik gemaakt van een sleep function die ik nog veel ga gebruiken in andere projecten.   
+                    </p>
+                </div>              
+            </div>
+        </div>
+    </div>
+    <div class="Cursor" id="Cursor-animation">
+        <div class="Cursor" id="Cursor-animation2"></div>
+        <div class="Cursor" id="Cursor-animation3"></div>
+    </div>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+    $(function() {
+        AOS.init({
+        });
+        // window.addEventListener('load', AOS.refresh)
+    });
+     </script>
+</body>
+</html>
+
+<script src="/pointer.js"></script>

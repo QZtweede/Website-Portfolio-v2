@@ -1,0 +1,41 @@
+html, body{
+    height: 100vw;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.Image-Container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    left: 0;
+    top: 0;
+}
+
+img{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 2s;
+    height: 100%;
+    width: 100%;
+}
+
+#img1.fade{
+    opacity: 1;
+}
+
+#img2.fade{
+    opacity: 1;
+}
+
+#img3.fade{
+    opacity: 1;
+}
+
+#img4.fade{
+    opacity: 1;
+}

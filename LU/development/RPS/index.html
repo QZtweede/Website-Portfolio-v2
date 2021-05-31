@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <link rel="icon" href="/img/icon.png">
+</head>
+<body>
+    <div class="Button-Container">
+        <button id="B1">Rock</button>
+        <button id="B2">Paper</button>
+        <button id="B3">Scissors</button>
+    </div>   
+
+    <div class="Outcome-Player">
+        <h1>You:</h1>
+        <img id="img-R-1"src="images/rock.png" alt="404 ERROR">
+        <img id="img-P-1"src="images/paper.png" alt="404 ERROR">
+        <img id="img-S-1"src="images/scissors.png" alt="404 ERROR">
+    </div>
+
+    <div class="Outcome-Enemy">
+        <h1>Enemy:</h1>
+        <img id="img-R-2"src="images/rock.png" alt="404 ERROR">
+        <img id="img-P-2"src="images/paper.png" alt="404 ERROR">
+        <img id="img-S-2"src="images/scissors.png" alt="404 ERROR">
+    </div>
+
+    <div class="Result">
+        <h2 id="Result-Txt"></h2>
+    </div>
+</body>
+</html>
+
+<script src="Code.js"></script>  
+
+<style>
+
+    html, body{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;      
+    }
+    body{
+        background: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: roboto;
+    }
+    
+    .Button-Container{
+        margin-top: 200px;
+    }
+    button{
+        height: 100px;
+        width: 200px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .Outcome-Player{
+        position: absolute;
+        left:30%;
+        top:20%;
+    }
+
+    .Outcome-Enemy{
+        position: absolute;
+        right:30%;
+        top:20%;
+    }
+
+    .Result{
+        height: 100px;
+        position: absolute;
+        bottom: 20%;
+    }
+
+    #Result-Txt{
+        font-size: 100px;
+    }
+    
+</style>

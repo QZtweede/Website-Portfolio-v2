@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Ruby Mus / Zjuul Rovers</title>
+    <link href="/style.css" rel="stylesheet">
+    <link rel="icon" href="/img/icon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body onclick="onClick()">
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="development.html">Back</a></li>
+        </ul>
+    </nav>
+    <div id="Project-top-container">
+        <div id="Content-H-container">
+            <h1 style="font-size: 160px;">Website Ruby Mus</h1>
+        </div>   
+        <div id="Content-p-container">
+            <p>
+                In dit semester heb ik veel tijd besteed aan onze werkgever Ruby Mus. Een groot deel hiervan is de website die we voor haar gemaakt hebben. De website is gemaakt in HTML, CSS en javascript. 
+            </p>
+            <a href="Website-Ruby-Mus/index.html" target="_blank">Klik hier om de website te zien</a>
+            <a style="top: 70px;" href="https://github.com/QZtweede/Ruby-Mus-Website" target="_blank">Github</a>
+        </div>
+        <div id="Genre-container">
+            <h2>Development</h2>
+        </div>
+    </div>
+    <div id="Project-content-container">
+        <div id="Project-img-container">
+            <img id="pimg1" src="/img/RM-img1.gif" alt="" id="Project-image-container1">
+            <img id="pimg2" src="/img/RM-img1.png" alt="" id="Project-image-container2">
+            <img id="pimg3" src="/img/RM-img2.png" alt="" id="Project-image-container2">
+        </div>
+        <div id="Project-p-container">
+            <div id="Project-p-container1">
+                <h1>
+                    Template
+                </h1>
+                <p1>
+                    Als eerst heb ik een simpele template gemaakt voor de website. Dit heb ik gedaan zodat mijn groepsleden apart aan hun eigen delen kunnen werken, zonder dat de stijl te veel verschilt. Ik heb vast de containers gemaakt waar de content in komt. Verder hebben we taken verdeeld. Ik werk vooral aan de feed pagina, waar de recente posts op social media van Ruby Mus worden weergegeven. Ook werk ik aan de muziek pagina, waar we in dit geval haar nieuwste lied laten horen.
+                </p1>
+            </div>
+            <div id="Project-p-container2">
+                <h1>
+                    Feed
+                </h1>
+                <p1>
+                    In de feed pagina staan de recente posts van Ruby Mus. Ze maakt vooral gebruik van Facebook en Instagram, dus heb ik een paar van haar posts geëmbed en langs elkaar gezet. Daarna heb ik met gebruik van een caroussel effect gezorgt dat je door de drie posts kan scrollen. Dit alles is gemaakt in Javascript. Je kan ook interacten met een post als deze vooraan staat van de caroussel. Zo kan je een video afspelen of naar de post gaan.
+                </p1>            
+            </div>
+            <div id="Project-p-container3">
+                <h1>
+                    Music
+                </h1>
+                <p1>
+                    Op de muziek pagina heb ik Ruby Mus haar meest recente muziek gezet. We waren van plan om met pijltjes door haar muziek te kunnen scrollen, maar helaas heeft ze pas 1 nummer uitgebracht. Door op de play knop te drukken begint een preview van het liedje te spelen, en begint onder in de container een equalizer animatie. Verder beweegt het bolletje op de tijdlijn ook en word de tijd aan beide kanten geupdate. In deze pagina zit redelijk veel Javascript verwerkt. 
+                </p1>            
+            </div>
+        </div>
+        <div id="Content-footer">
+            <div class="footerContainer">
+                <p>Wat heb ik geleerd</p>
+                <div>
+                    <p>
+                        Ik heb veel ervaring voor vooral Javascript opgedaan, maar daarnaast ook meer over HTML en CSS geleerd. 
+                    </p>
+                </div>              
+            </div>
+        </div>
+    </div>
+    <div class="Cursor" id="Cursor-animation">
+        <div class="Cursor" id="Cursor-animation2"></div>
+        <div class="Cursor" id="Cursor-animation3"></div>
+    </div>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+    $(function() {
+        AOS.init({
+        });
+        // window.addEventListener('load', AOS.refresh)
+    });
+     </script>
+</body>
+</html>
+
+<script src="/pointer.js"></script>
