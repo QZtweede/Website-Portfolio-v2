@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced development / Zjuul Rovers</title>
+    <link href="/style.css" rel="stylesheet">
+    <link rel="icon" href="/img/icon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body onclick="onClick()">
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="development.html">Back</a></li>
+        </ul>
+    </nav>
+    <div id="Project-top-container">
+        <div id="Content-H-container">
+            <h1 style="font-size: 150px;">Advanced development</h1>
+        </div>   
+        <div id="Content-p-container">
+            <p>
+                In dit project heb ik onderzoek gedaan naar verschillende javascript libraries. Hiervan heb ik drie uitgewerkt in een demo. Uiteindelijk heb ik een hiervan ook in mijn portfolio verwerkt. Dit project was een van mijn eerste ervaringen met javascript libraries.
+            </p>
+        </div>
+        <div id="Genre-container">
+            <h2>Development / PI</h2>
+        </div>
+    </div>
+    <div id="Project-content-container">
+        <div id="Project-img-container">
+            <img id="pimg1" src="/img/anime-img.png" alt="" id="Project-image-container1">
+            <img id="pimg2" src="/img/granim-img.png" alt="" id="Project-image-container2">
+            <img id="pimg3" src="/img/aos-img.png" alt="" id="Project-image-container2">
+        </div>
+        <div id="Project-p-container">
+            <div id="Project-p-container1">
+                <h1>
+                    Anime.js
+                </h1>
+                <p1>
+                    Anime.js is een library gemaakt voor animaties. De mogelijkheden met anime.js zijn erg breed, omdat de library veel verschillende functies en eigenschappen heeft. <a href="https://animejs.com/documentation/" target="_blank">Zie hier.</a> Ik was geïnterreseerd in deze library omdat deze makkelijk te begrijpen was, en zo dus gebruikt kan worden voor grote of kleine animaties.<br><br> <a target="_blank" href="https://github.com/QZtweede/anime.js">Github</a> <br><a target="_blank" href="Advanced-development/anime.js/index.html">Demo</a>
+                </p1>
+            </div>
+            <div id="Project-p-container2">
+                <h1>
+                    Granim.js
+                </h1>
+                <p1>
+                    Granim.js is een library om makkelijk kleur overlopen te maken. De library is vergeleken met anime.js een stuk simpeler, maar ook meer gefocussed op een functie. De library is simpel te begrijpen, en kan toegepast worden in verschillende omstandigheden. Zelf heb ik geëxperimenteerd om deze library te implementeren in mijn portfolio, dit vond ik daarentegen niet erg bij de stijl passen.<br> <a target="_blank" href="https://github.com/QZtweede/granim.js">Github</a> <br><a target="_blank" href="Advanced-development/granim.js/index.html">Demo</a>
+                </p1>            
+            </div>
+            <div id="Project-p-container3">
+                <h1>
+                    AOS.js
+                </h1>
+                <p1>
+                    AOS is een erg simpele library die gefocussed is op simpele animaties gebaseerd op scrollen. De library is heel makkelijk te gebruiken, vooral omdat alles via HTML word toegepast. Daarentegen lijken de animaties erg professioneel, en geven dezen een extra touch aan je website. Zelf heb ik geëxperimenteerd om de library te gebruiken in mijn portfolio. Het resultaat vond ik aansprekend, dus heb ik het toegepast op meerdere pagina's. <br> <a target="_blank" href="https://github.com/QZtweede/aos.js">Github</a> <br><a target="_blank" href="Advanced-development/aos.js/index.html">Demo</a>
+                </p1>            
+            </div>
+        </div>
+        <div id="Content-footer">
+            <div class="footerContainer">
+                <p>Wat heb ik geleerd</p>
+                <div>
+                    <p>
+                        Ik heb meer geleerd over het gebruik van libraries in javascript. Hier had ik weinig ervaring mee. Na onderzoek te doen en de libraries toe te passen is mijn javascript verbeterd.
+                    </p>
+                </div>              
+            </div>
+        </div>
+    </div>
+    <div class="Cursor" id="Cursor-animation">
+        <div class="Cursor" id="Cursor-animation2"></div>
+        <div class="Cursor" id="Cursor-animation3"></div>
+    </div>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+    $(function() {
+        AOS.init({
+        });
+        // window.addEventListener('load', AOS.refresh)
+    });
+     </script>
+</body>
+</html>
+
+<script src="/pointer.js"></script>
