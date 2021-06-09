@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Development / Zjuul Rovers</title>
+    <link href="/style.css" rel="stylesheet">
+    <link rel="icon" href="/img/icon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body onclick="onClick()">
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="development.html">Back</a></li>
+        </ul>
+    </nav>
+    <div id="Project-top-container">
+        <div id="Content-H-container">
+            <h1 style="font-size: 160px;">Portfolio Dev.</h1>
+        </div>   
+        <div id="Content-p-container">
+            <p>
+                Door het hele semester heen heb ik veel aan mijn portfolio gewerkt. Een groot deel hiervan was het design omzetten in code. Zo heb ik met gebruik van HTML, CSS en javascript mijn design omgezet in een werkende website. In dit project laat ik mijn proces hiervan zien, en focus ik op de interresante development delen uit mijn portfolio.
+            </p>
+            <a style="top: 70px;" href="https://github.com/QZtweede/Website-Portfolio-v2" target="_blank">Github</a>
+        </div>
+        <div id="Genre-container">
+            <h2>Development</h2>
+        </div>
+    </div>
+    <div id="Project-content-container">
+        <div id="Project-img-container">
+            <img id="pimg1" src="/img/portDev-img1.png" alt="" id="Project-image-container1">
+            <img id="pimg2" src="/img/portDev-img2.png" alt="" id="Project-image-container2">
+            <img id="pimg3" src="/img/portDev-img3.png" alt="" id="Project-image-container2">
+        </div>
+        <div id="Project-p-container">
+            <div id="Project-p-container1">
+                <h1>
+                    HTML
+                </h1>
+                <p1>
+                    Mijn portfolio is onderverdeeld in drie pagina's: Homepagina, leeruitkomsten pagina en projecten pagina. Voor de leeruitkomten en projecten pagina's heb ik eerst het design uitgewerkt in een HTML template. Deze kon ik makkelijk dupliceren en vullen met andere content. Zo heb ik uiteindelijk 1 homepagina, 6 leeruitkomsten pagina's en ongeveer 25 project pagina's. 
+                </p1>
+            </div>
+            <div id="Project-p-container2">
+                <h1>
+                    CSS
+                </h1>
+                <p1>
+                    Om stijl toe te voegen aan de pagina's heb ik een groot style.css bestand aangemaakt. Hierin staat de stijl van alle pagina's. Door het gebruik van duidelijke ID's en classes in HTML is het bestand, ondanks de 800 regels, redelijk overzichtelijk. Daarnaast is er nog een apart CSS bestand voor de intro van de homepagina. In beide bestanden heb ik gebruik gemaakt van verschillende keyframes, om animaties toe te voegen als details. Denk aan de intro van de homepagina of de animatie wanneer er word gehovered over een project.
+                </p1>            
+            </div>
+            <div id="Project-p-container3">
+                <h1>
+                    JS
+                </h1>
+                <p1>
+                    Om bepaalde elementen werkend te maken heb ik ook javascript gebruikt. Zo heb ik een javascript bestand gemaakt om tussen de leeruitkomsten op de homepagina te scrollen met pijltjes. Ook word de progressie weergegeven bij de cirkels onder de leeruitkomsten. Daarnaast is er ook een javascript bestand voor de custom pointer. Hierin word geregeld dat het object de muis volgt, maar ook dat deze animeert als er geklikt word. Daarnaast word ook het hover-effect over de projecten werkend gemaakt.
+                </p1>            
+            </div>
+        </div>
+        <div id="Content-footer">
+            <div class="footerContainer">
+                <p>Wat heb ik geleerd</p>
+                <div>
+                    <p>
+                        Ik heb meer ervaring opgedaan met het toepassen van HTML, CSS en javascript. 
+                    </p>
+                </div>              
+            </div>
+            <div class="footerContainer">
+                <p>Wat kon beter</p>
+                <div>
+                    <p>
+                        Mijn bestanden zouden beter gestructureerd kunnen worden. Ook zou ik meer CSS bestanden toegevoegd kunnen hebben.
+                    </p>
+                </div>              
+            </div>
+        </div>   
+    </div>
+    <div class="Cursor" id="Cursor-animation">
+        <div class="Cursor" id="Cursor-animation2"></div>
+        <div class="Cursor" id="Cursor-animation3"></div>
+    </div>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+    $(function() {
+        AOS.init({
+        });
+        // window.addEventListener('load', AOS.refresh)
+    });
+     </script>
+</body>
+</html>
+
+<script src="/pointer.js"></script>

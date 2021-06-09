@@ -8,6 +8,11 @@
     cursor: none;
 }
 
+@font-face {
+    font-family: Niagara solid;
+    src: url(fonts/NIAGSOL.TTF);
+}
+
 ::-webkit-scrollbar{
     display: none;
 }
