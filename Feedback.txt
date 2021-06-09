@@ -16,3 +16,9 @@ Feedback Website:
 -Fonts online linken
 -Verder is het speelse en niet cliche design wel goed uitgewerkt en ziet er goed uit
 -Responsive maken
+
+-Wat kan ik volgende keer beter doen toevoegen
+-Origineel layout
+-Fonts online linken
+-Content toevoegen
+-Navigatie
