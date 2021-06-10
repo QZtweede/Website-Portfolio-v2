@@ -9,8 +9,10 @@
 }
 
 @font-face {
-    font-family: Niagara solid;
-    src: url(fonts/NIAGSOL.TTF);
+    font-family: "Niagara";
+    src: url(fonts/NIAGSOL.TTF) format('truetype');
+    src: url(fonts/Niagara-Solid.otf) format('opentype');
+    src: url(fonts/NIAGSOL.woff) format('woff');
 }
 
 ::-webkit-scrollbar{
@@ -127,7 +129,7 @@ nav img{
     position: absolute;
     color: #A7B6D2;
     font-size: 120px;
-    font-family: Niagara Solid;
+    font-family: Niagara;
     right: 200px;
     top: 10px;
     text-align: center;
@@ -165,7 +167,7 @@ nav img{
 #H-container p{
     position: absolute;
     font-size: 60px;
-    font-family: Niagara Solid;
+    font-family: Niagara;
     color: #383838;
     bottom: 0;
 }
@@ -218,7 +220,7 @@ nav img{
     position: absolute;
     color: #A7B6D2;
     font-size: 280px;
-    font-family: Niagara Solid;
+    font-family: Niagara;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -475,7 +477,7 @@ nav img{
     position: absolute;
     color: #A7B6D2;
     font-size: 120px;
-    font-family: Niagara Solid;
+    font-family: Niagara;
     right: 100px;
     top: -90px;
     text-decoration: none;
@@ -483,7 +485,7 @@ nav img{
 }
 
 .Content h1{
-    font-family: Niagara Solid;
+    font-family: Niagara;
     font-size: 250px;
     color: #A7B6D2;
     text-decoration: none;
@@ -503,7 +505,7 @@ nav img{
     opacity: 0;
     transition: 0.5s;
     width: 400px;
-    font-family: Niagara Solid;
+    font-family: Niagara;
     font-size: 30px;
     animation: fontColor 5s infinite;
 }
@@ -570,7 +572,7 @@ nav img{
 }
 
 #Genre-container h2{
-    font-family: Niagara solid;
+    font-family: Niagara;
     color: #A7B6D2;
     font-size: 100px;
 }
