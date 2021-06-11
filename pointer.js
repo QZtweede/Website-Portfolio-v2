@@ -6,7 +6,6 @@ let hover = document.getElementById("Hover-text")
 
 let portfolioTxt = document.getElementById("portfolioTxt")
 
-
 let curs = document.getElementById("Cursor-animation")
 document.addEventListener("mousemove", function(i){
     curs.style.left = i.clientX + "px"
@@ -52,3 +51,4 @@ function opacityOut(){
 //     portfolioTxt.style.right="200px"
 //     portfolioTxt.style.top="10px"
 // }
+

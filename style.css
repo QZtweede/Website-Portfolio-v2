@@ -350,7 +350,7 @@ nav img{
 .Cursor{
     border-radius: 50%;
     position: fixed;
-    z-index: 2;
+    z-index: 11;
     pointer-events: none;
 }
 
@@ -733,3 +733,32 @@ nav img{
     justify-content: center;
     align-items: center;
 }
+
+#dropDown{
+    height: 600px;
+    width: 200px;
+    display: none;
+    grid-template-rows: repeat(6, 100px);
+    position: absolute;
+    gap: 0px 0px;
+    background: #090909;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    left: 25vw;
+    border-radius:  0 0 10px 10px;
+}
+
+#dropDown a{
+    text-decoration: none;
+    margin: 50px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    color: #A5B5D3;
+    transition: 0.3s;
+}
+
+#dropDown a:hover{
+    color: #e9ffff;
+}
+
