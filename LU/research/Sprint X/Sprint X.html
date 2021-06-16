@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint X / Zjuul Rovers</title>
+    <link href="/style.css" rel="stylesheet">
+    <link rel="icon" href="/img/icon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body onclick="onClick()">
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a id="leeruitkomstenNav">Leeruitkomsten</a></li>
+            <li><a href="/LU/development/development.html">Back</a></li>
+        </ul>
+    </nav>
+    <div id="dropDown">
+        <a href="/LU/interactieve media/interactieve-media.html">Interactive media</a>
+        <a href="/LU/development/development.html">Development</a>
+        <a href="/LU/design/design.html">Design</a>
+        <a href="/LU/research/research.html">Research</a>
+        <a href="/LU/communication/communication.html">Communication</a>
+        <a href="/LU/professional identity/professional identity.html">Professional identity</a>
+    </div>
+    <div id="Project-top-container">
+        <div id="Content-H-container">
+            <h1 style="font-size: 160px;">Sprint X</h1>
+        </div>   
+        <div id="Content-p-container">
+            <p>
+                In mijn sprint X project heb ik veel focus gelegt op development. Mijn project was het maken van een tower defense game. Hierbij heb ik gebruik gemaakt van pure HTML, CSS en javascript. Zelf had ik al ervaring met game development, maar nooit heb ik hiervoor javascript gebruikt. Verder heb ik ook research gedaan naar het maken van een javascript game.
+            </p>
+            <a style="top: 70px;" href="https://github.com/QZtweede/Tower-Defense-Game" target="_blank">Github</a>
+            <a style="top: 70px;" href="Sprint X/index.html" target="_blank">Klik hier om de game te spelen</a>
+        </div>
+        <div id="Genre-container">
+            <h2>Development / Research</h2>
+        </div>
+    </div>
+    <div id="Project-content-container">
+        <div id="Project-img-container">
+            <img id="pimg1" src="/img/sprintX-img1.jpg" alt="" id="Project-image-container1">
+            <img id="pimg2" src="/img/sprintX-img2.png" alt="" id="Project-image-container2">
+            <img id="pimg3" src="/img/sprintX-img3.png" alt="" id="Project-image-container2">
+        </div>
+        <div id="Project-p-container">
+            <div id="Project-p-container1">
+                <h1>
+                    Ideevorming
+                </h1>
+                <p1>
+                    Voor mijn project heb ik redelijk snel de keuze gemaakt om een game te maken. Ik heb onderzoek gedaan naar verschillende soorten games door te kijken naar andere javascript games of games in bijvoorbeeld de Play store. Uiteindelijk heb ik 3 ideeën gevormd: een tower defense game, een clicker game of een kaartspel. Uiteindelijk leek de tower defense game mij het uitdagendst, dus heb ik dit idee uitgewerkt. Ik heb gekeken naar andere TD games als Bloons TD om inspiratie op te doen. Na een stappenplan en planning te maken ben ik begonnen met coderen.
+                </p1>
+            </div>
+            <div id="Project-p-container2">
+                <h1>
+                    javascript
+                </h1>
+                <p1>
+                    Toen ik begon met het maken van de game twijfelde ik om een library te gebruiken om collision te detecteren. Uiteindelijk heb ik de keuze gemaakt om dit niet te doen. Het javascript bestand bestaat uit meerdere functies om bepaalde acties uit te voeren. In dit project heb ik gebruik gemaakt van termen waarmee ik nog niet eerder heb gewerkt in javascript. Voorbeelden hiervan zijn appendChild(), getComputedStyle() of setAttribute(). Dit heeft mijn javascript kennis in het algemeen groter gemaakt. Verder heb ik de stijl en layout gemaakt met HTML en CSS, maar hier is een stuk minder tijd in gegaan. 
+                </p1>            
+            </div>
+            <div id="Project-p-container3">
+                <h1>
+                    Feedback
+                </h1>
+                <p1>
+                    Als project begeleider voor sprint X heb ik Geert Jan gevraagd. Deze keuze heb ik gemaakt omdat hij veel kennis heeft van development en omdat ik het idee had dat communicatie makkelijk zou zijn. Ik heb regelmatig feedback gevraagd op mijn proces richting het eindproduct. Deze feedback heb ik verwerkt in mijn project. Zo attendeerde Geert Jan er mij bijvoorbeeld op dat ik nog niet had gekeken naar het proces van het aanvallen van de enemies. Later bleek dat dit een redelijk groot deel van het project was. Uiteindelijk heb ik ook samen met mijn project begeleider de keuze gemaakt om een deel van de game niet uit te werken, omdat het anders niet haalbaar was.
+                </p1>            
+            </div>
+        </div>
+        <div id="Content-footer">
+            <div class="footerContainer">
+                <p>Wat heb ik geleerd</p>
+                <div>
+                    <p>
+                        Ik heb meer ervaring opgedaan met het onderzoeken van een onderwerp en het vormen van een idee. Verder heb ik mijn javascript vaardigheden erg verbeterd door het coderen van deze game.
+                    </p>
+                </div>              
+            </div>
+            <div class="footerContainer">
+                <p>Wat kon beter</p>
+                <div>
+                    <p>
+                        Ik had eerder kunnen beseffen dat bepaalde delen van de game niet haalbaar waren in de tijd die ik had. Zo had ik mijn planning hierop kunnen aanpassen.
+                    </p>
+                </div>              
+            </div>
+        </div>   
+    </div>
+    <div class="Cursor" id="Cursor-animation">
+        <div class="Cursor" id="Cursor-animation2"></div>
+        <div class="Cursor" id="Cursor-animation3"></div>
+    </div>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+    $(function() {
+        AOS.init({
+        });
+        // window.addEventListener('load', AOS.refresh)
+    });
+     </script>
+</body>
+</html>
+
+<script src="/pointer.js"></script>
+<script src="/dropDown.js"></script>
